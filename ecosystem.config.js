@@ -1,9 +1,9 @@
 module.exports = {
     apps : [
         {
-            name: "sa_page_local",
+            name: "intro",
             mode: "cluster",
-            script: "./server.js",
+            script: "next start",
             watch: true,
             env_development: {
                 "PORT": 3000,
